@@ -1,0 +1,4 @@
+scripts:
+  installs: pip install -r requirements.txt
+  runserver: uvicorn main:app --reload
+  
